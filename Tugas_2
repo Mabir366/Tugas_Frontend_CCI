@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0"/>
+        <title> Tugas 2 CCI (HTML)</title>
+        <style>
+        body {
+            font-family: quicksand, sans-serif;
+        }
+        header{
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #cccccc7d;
+            text-align: center;
+        }
+        nav, main, aside, section, footer {
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #cccccc7d;
+        }
+        main {
+            display: flex;
+        }
+        section {
+            flex: 1;
+        }
+        aside {
+            flex: 1;
+            background-color: #f4f4f4;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 2px;
+        }
+        </style>
+
+    </head>
+    <body>
+        
+        <nav> 
+            <a href="beranda.html">Beranda</a>
+            <a href="tentangkami.html">Tentang Kami</a>
+            <a href="layanan.html">Layanan</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        <header> 
+            <h2> Hubungan Diplomatik Indonesia</h2>
+            <p> Indonesia adalah negara yang memiliki hubungan diplomatik dengan banyak negara di dunia.<p>
+            <i> Berikut adalah negara yang memiliki hubungan diplomatik dengan Indonesia:</i>
+        </header>
+
+        <main>
+    <nav>
+        <ul>
+        <section>
+             <li><a href="https://id.wikipedia.org/wiki/India">India</a></li>
+            <p>India adalah negara yang memiliki hubungan diplomatik yang kuat dengan Indonesia.</p>
+        </section>
+        <section>
+             <li><a href="https://id.wikipedia.org/wiki/Afganistan">Afganistan</a></li>
+            <p>Afganistan adalah negara yang memiliki hubungan diplomatik dengan Indonesia.</p>
+        </section>
+        <section>
+             <li><a href="https://id.wikipedia.org/wiki/Amerika_Serikat">Amerika Serikat</a></li>
+            <p>Amerika Serikat adalah negara yang memiliki hubungan diplomatik dengan Indonesia.</p>
+        </section>
+        <section>
+            <li><a href="https://id.wikipedia.org/wiki/Arab_Saudi">Arab Saudi</a></li>
+            <p>Arab Saudi adalah negara yang memiliki hubungan diplomatik dengan Indonesia.</p>
+        </section>
+        </ul>
+    </nav>
+        <aside>
+            <div>Negara-negara yang sudah dijelaskan sebelumnya adalah sebagian kecil dari banyaknya negara yang punya hubungan diplomatik dengan Indonesia.</div>
+            <br>
+            <img src ="prabowo.jpg" alt="Foto Pajangan" width="650px" height="350px">
+        </aside>
+        </main>
+    <footer>
+        <b>&copy; 2023 Website yang diciptakan oleh Bill Stephen Sembiring</b>
+    </footer>
+
+
+    </body>
+
+
+</html>
